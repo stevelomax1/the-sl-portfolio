@@ -1,10 +1,19 @@
 .hero {
   background-color: black;
   color: white;
+  text-align: center;
+  padding: 15px;
 }
 
 .navItem {
   color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 .container {
@@ -12,8 +21,7 @@
   padding-left: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
 }
 
 #bio {
@@ -21,13 +29,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+
+  
 }
 
 #projects {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 #contact {
@@ -35,4 +44,89 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+body{ 
+  background-color: white;
+}
+
+.profile-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-sl {
+  display: flex;
+  padding-top: 10px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#project-first-row {
+  display: flex;
+  flex-direction: row;
+  min-height: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#project-first-item {
+  border-radius: 20px;
+  background-size: 150%;
+  font-size: 30px;
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg");
+  color: white;
+  flex: 1;
+}
+
+.project-row {
+display: flex; 
+flex-direction: row;
+justify-content: space-between;
+padding-top: 20px;
+padding-left: 150px;
+padding-right: 150px;
+}
+
+.project-item {
+  border-radius: 20px;
+  padding: 10px;  
+  flex: 1;
+  background-size: 150%;
+  font-size: 30px;
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg");
+  color: white;
+}
+
+.spacer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#contact-row {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#contact-item {
+  flex: 1;
+  padding: 10px;
 }
